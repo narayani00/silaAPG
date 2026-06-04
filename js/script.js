@@ -64,7 +64,7 @@ function validasiForm(){
         'Layanan: ' + layanan + '\n' + 
         'Tanggal: ' + formatTanggal(tanggal)); 
  
-    return false;
+    return true;
 }
 
     // Mengembalikan false agar form tidak disubmit dan halaman tidak ter-refresh 
